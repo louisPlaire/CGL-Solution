@@ -716,6 +716,10 @@ namespace CGL
                 {
                     storage[i].Update();
                 }
+                foreach (Vertex vertex in storage)
+                {
+                    vertex.Update();
+                }
             }
         }
         /// <summary>
