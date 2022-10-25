@@ -712,9 +712,9 @@ namespace CGL
             /// </summary>
             public void Update()
             {
-                foreach (Vertex vertex in storage)
+                for (int i = storage.Count - 1; i >= 0; i--)
                 {
-                    vertex.Update();
+                    storage[i].Update();
                 }
             }
         }

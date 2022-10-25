@@ -20,8 +20,8 @@ class main
         for (int i = 0; i < 5; i++)
         {
             v.BoundToPool(v1, p);
-            v.Translate(1, 1);
-            v1.Translate(-1, 1);
+            v.Translate(0, 1);
+            v1.Translate(0, 1);
         }
         v.SetActive(false);
         v1.SetActive(false);
